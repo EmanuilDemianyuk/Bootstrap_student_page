@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+}
+.header {
+  background-color: var(--header_gb);
+}
+:root {
+  --header_gb: rgb(74, 83, 167);
+  --header_text: rgb(194, 194, 194);
+}
+[class="__container"] {
+  display: grid;
+  grid-template: 1fr 100px / 1fr 1fr;
+}
+/* Home ======================= */
+
+.header__logo img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.hover_grp {
+  color: var(--header_text);
+}
+.hover_grp:hover {
+  color: #ffff;
+}
+
+.main {
+}
+h1 {
+  font-weight: 500;
+}
+
+.hr {
+}
+.news {
+}
+.rewards {
+}
